@@ -23,8 +23,8 @@ void loop() {
 
 
   //LoRaUART.println("AT+DTX=6,\"abcdef\"");
-  LoRaUART.println("AT+DTX=10,1234567890");
-  Serial.println("ATDTX 1234567890");
+  LoRaUART.println("AT+DTX=5,\"33/88\"");
+  Serial.println("ATDTX 33/88");
   //LoRaUART.println("AT+DTX=16,1234567890abcdef");
   delay(10*1000);
 }
